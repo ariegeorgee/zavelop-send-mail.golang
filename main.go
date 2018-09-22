@@ -6,7 +6,8 @@ func main(){
 	mail := NewAccount("YOUR EMAIL","YOUR PASSWORD")
 
 	// SETING RECEPIENT
-	Receiver := []string{"ariardiansyah470@gmail.com"}
+	// SAMPLE Receiver := []string{"abc@sample.com"}
+	Receiver := []string{"MAIL TO"}
 
 	Subject := "Percobaan mengirim Email menggunakan GoLang"
 	message := `
